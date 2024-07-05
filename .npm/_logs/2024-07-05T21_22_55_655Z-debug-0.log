@@ -1,0 +1,69 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.8.1
+2 info using node@v22.3.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm i acodex-server
+7 verbose argv "i" "--global" "acodex-server"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2024-07-05T21_22_55_655Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2024-07-05T21_22_55_655Z-debug-0.log
+10 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest acodex-server@*
+15 silly packumentCache full:https://registry.npmjs.org/acodex-server cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/acodex-server 1500ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/acodex-server set size:undefined disposed:false
+18 silly placeDep ROOT acodex-server@1.1.6 OK for:  want: *
+19 silly fetch manifest @hono/node-server@^1.4.0
+20 silly packumentCache full:https://registry.npmjs.org/@hono%2fnode-server cache-miss
+21 silly fetch manifest commander@^11.1.0
+22 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+23 silly fetch manifest hono@^3.11.12
+24 silly packumentCache full:https://registry.npmjs.org/hono cache-miss
+25 silly fetch manifest node-pty@^1.0.0
+26 silly packumentCache full:https://registry.npmjs.org/node-pty cache-miss
+27 silly fetch manifest ws@^8.15.0
+28 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/commander 351ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/commander set size:undefined disposed:false
+31 silly fetch manifest xterm-addon-serialize@^0.7.0
+32 silly packumentCache full:https://registry.npmjs.org/xterm-addon-serialize cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/ws 475ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/ws set size:undefined disposed:false
+35 silly fetch manifest xterm-headless@^4.19.0
+36 silly packumentCache full:https://registry.npmjs.org/xterm-headless cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/xterm-addon-serialize 998ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/xterm-addon-serialize set size:undefined disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/xterm-headless 980ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/xterm-headless set size:undefined disposed:false
+41 http fetch GET 200 https://registry.npmjs.org/node-pty 1517ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/node-pty set size:undefined disposed:false
+43 http fetch GET 200 https://registry.npmjs.org/hono 1573ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/hono set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/@hono%2fnode-server 2310ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/@hono%2fnode-server set size:undefined disposed:false
+47 silly fetch manifest bufferutil@^4.0.1
+48 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/bufferutil 55ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:undefined disposed:false
+51 silly fetch manifest utf-8-validate@>=5.0.2
+52 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 42ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:undefined disposed:false
+55 silly fetch manifest xterm@^4.0.0
+56 silly packumentCache full:https://registry.npmjs.org/xterm cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/xterm 4055ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/xterm set size:undefined disposed:false
+59 silly placeDep node_modules/acodex-server @hono/node-server@1.12.0 OK for: acodex-server@1.1.6 want: ^1.4.0
+60 silly placeDep node_modules/acodex-server commander@11.1.0 OK for: acodex-server@1.1.6 want: ^11.1.0
+61 silly placeDep node_modules/acodex-server hono@3.12.12 OK for: acodex-server@1.1.6 want: ^3.11.12
+62 silly placeDep node_modules/acodex-server node-pty@1.0.0 OK for: acodex-server@1.1.6 want: ^1.0.0
+63 silly placeDep node_modules/acodex-server ws@8.18.0 OK for: acodex-server@1.1.6 want: ^8.15.0
+64 silly placeDep node_modules/acodex-server xterm-addon-serialize@0.7.0 OK for: acodex-server@1.1.6 want: ^0.7.0
+65 silly placeDep node_modules/acodex-server xterm@4.19.0 OK for: xterm-addon-serialize@0.7.0 want: ^4.0.0
+66 silly placeDep node_modules/acodex-server xterm-headless@4.19.0 OK for: acodex-server@1.1.6 want: ^4.19.0
+67 silly fetch manifest nan@^2.17.0
+68 silly packumentCache full:https://registry.npmjs.org/nan cache-miss
